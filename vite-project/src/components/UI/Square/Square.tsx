@@ -6,7 +6,7 @@ type SquareProps = {
     type: string
 }
 
-const Square = ({num}: SquareProps) => {
+const Square = ({num, type}: SquareProps) => {
 
     const checkSquareType = () => {
 
