@@ -21,9 +21,9 @@ const Board = () => {
     var squares: Array<JSX.Element> = [];
     for (var i = 0; i <= 99; i++) {
       if(bombSquares.indexOf(i) !== -1) {
-        squares.push(<Square num={i} key={i} type={"bomb"} />);
+        squares.push(<Square key={i} type={"bomb"} />);
       } else {
-        squares.push(<Square num={i} key={i} type={"normal"} />);
+        squares.push(<Square key={i} type={"normal"} />);
       }
     }
     return squares;

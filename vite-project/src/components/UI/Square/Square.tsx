@@ -1,19 +1,20 @@
 import React from 'react'
 import "./Square.css"
+import Closed from "../../../assets/closed.png";
 
 type SquareProps = {
-    num: number
+  //  num: number
     type: string
 }
 
-const Square = ({num, type}: SquareProps) => {
+const Square = ({type}: SquareProps) => {
 
     const checkSquareType = () => {
-
+        
     }
 
   return (
-    <button className='square' onClick={checkSquareType}>{num}</button>
+    <img className='square' onClick={checkSquareType} src={Closed} />
   )
 }
 

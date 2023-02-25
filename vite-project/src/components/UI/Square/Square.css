@@ -1,9 +1,8 @@
 .square {
-    width: 24px;
-    height: 24px;
+    width: 26px;
+    height: 26px;
     /* font-size: 20px; */
     /* line-height: 23px; */
-    border: 1px solid gray;
     float: left;
     cursor: pointer;
 }
