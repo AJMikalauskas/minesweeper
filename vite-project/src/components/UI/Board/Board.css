@@ -7,3 +7,12 @@
 	display: "grid";
 	grid-template: "repeat(3, 1fr) / repeat(3, 1fr)";
 }
+
+.square {
+    width: 26px;
+    height: 26px;
+    /* font-size: 20px; */
+    /* line-height: 23px; */
+    float: left;
+    cursor: pointer;
+}
